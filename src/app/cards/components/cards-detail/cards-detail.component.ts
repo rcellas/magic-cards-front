@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Cards } from '../../model/Cards.model';
 
 @Component({
   selector: 'app-cards-detail',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class CardsDetailComponent {
 
+  @Input() card!:Cards
 }
