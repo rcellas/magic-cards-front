@@ -1,7 +1,4 @@
-# Prueba Angular
-
-** Prueba de conocimientos en angular **
-
+# Magic cards front
 
 ## Requirements
 - Nodejs
